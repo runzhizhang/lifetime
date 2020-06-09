@@ -1,0 +1,20 @@
+<!--pages/testpage/testpage.wxml-->
+<!-- <view>生命周期page</view>
+<view>{{test}}</view>
+<button bindtap="onClick">click</button>
+<comp></comp> -->
+<!-- 组件 -->
+<!-- <form catchsubmit="formSubmit" catchreset="formReset">
+  <input type="text" name="inputContext" placeholder="这是一个输入框"></input>
+  <button form-type="submit">submit</button>
+  <button form-type="reset">reset</button>
+</form> -->
+<!--canvas使用-->
+<canvas canvas-id="myCanvas" style="border: 1px solid;" 
+  bindtouchstart="start"
+  bindtouchmove="move"
+  bindtouchend="end"></canvas>
+<view hidden="{{hidden}}">
+  Coordinates: {{x}},{{y}}
+</view>
+  
